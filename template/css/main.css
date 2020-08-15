@@ -748,13 +748,16 @@ hr{
 #about .info-section .info-img img{
 	background-color:transparent;
 	border-color:rgba(0,0,0,.18);
-	width:430px
 }
 #about .info-section .info-content .content-subtitle{
 	font-size:24px;
-	margin-bottom:15px
 }
 #about .info-section .info-content .content-title{
+	font-size:31px;
+	line-height:1.6;
+	margin-bottom:16px;
+}
+#about .info-section .info-content .content-name{
 	font-size:31px;
 	font-weight:700;
 	line-height:1.6;
@@ -818,13 +821,10 @@ hr{
 }
 @media (min-width:992px) and (max-width:1199.98px){
 	#about .info-section .info-img img{
-		-o-object-fit:cover;
-		height:440px;
-		object-fit:cover
+		object-fit:cover;
+		padding-bottom: 210px;
 }
-	#about .info-section .info-content .content-subtitle{
-		display:none
-}
+
 	#about .info-section .info-content .content-title{
 		font-size:26px
 }
@@ -847,7 +847,8 @@ hr{
 		height:250px;
 		margin:0 auto 40px auto;
 		object-fit:cover;
-		width:250px
+		width:250px;
+		padding-bottom: 0px;
 }
 	#about .info-section .info-content .content-subtitle{
 		font-size:18px

@@ -441,11 +441,10 @@ hr {
 
 .img-thumbnail {
   background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: .25rem;
   height: auto;
   max-width: 100%;
   padding: .25rem;
+  padding-bottom: 123px;
 }
 
 .figure {
