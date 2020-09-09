@@ -769,7 +769,7 @@ hr{
 #about .info-section .info-content .content-description p:last-child{
 	border-bottom:2px solid rgba(255,255,255,.08);
 	margin-bottom:0;
-	padding-bottom:29px
+	padding-bottom:15px
 }
 #about .info-section .info-content .content-info{
 	font-size:15px;
@@ -822,7 +822,7 @@ hr{
 @media (min-width:992px) and (max-width:1199.98px){
 	#about .info-section .info-img img{
 		object-fit:cover;
-		padding-bottom: 210px;
+		padding-bottom: 190px;
 }
 
 	#about .info-section .info-content .content-title{
