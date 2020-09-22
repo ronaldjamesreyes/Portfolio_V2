@@ -230,6 +230,10 @@ a:not(.btn):focus,a:not(.btn):hover {
   border-left-color: #009e66;
 }
 
+#resume .resume-section .skills-grid .skills-item{
+  border-left-color: #009e66;
+}
+
 #resume .skills-section .single-skill .skill-progress .progress-bar {
   background-color: #009e66;
 }
