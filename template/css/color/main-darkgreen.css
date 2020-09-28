@@ -238,7 +238,7 @@ a:not(.btn):focus,a:not(.btn):hover {
   background-color: #009e66;
 }
 
-#portfolio .portfolio-section .filter-control>li.tab-active,#portfolio .portfolio-section .filter-control>li:hover {
+#portfolio .portfolio-section .filter-control>li.tab-active,#blog .portfolio-section .filter-control>li:hover {
   color: #00bd7a;
 }
 
