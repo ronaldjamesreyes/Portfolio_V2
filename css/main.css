@@ -890,7 +890,7 @@ hr {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #about .info-section .info-img img {
     object-fit: cover;
-    padding-bottom: 190px;
+    padding-bottom: 150px;
   }
 
   #about .info-section .info-content .content-title {
@@ -1108,9 +1108,6 @@ hr {
     padding: 50px 0;
   }
 }
-#resume .resume-section .col-block.education {
-  margin-right: 20px;
-}
 #resume .resume-section .col-block.experience {
   margin-top: 40px;
 }
@@ -1179,7 +1176,7 @@ hr {
 
 #resume .resume-section .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(18rem, 0.5fr));
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1.5fr));
   gap: 2em;
 }
 
@@ -1777,5 +1774,76 @@ body.theme-light .demo-tool .tool-box {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
+  }
+}
+
+.projectSection{
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.justify-content-center{
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+
+/*Project Section Responsive*/
+
+@media (max-width: 991px){
+  .col-sm-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 49.666667%;
+      max-width: 66.666667%;
+  }
+}
+
+
+@media (max-width: 767px){
+  .col-sm-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 576px){
+  .col-sm-8 {
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
+
+@media (max-width: 767px){
+  #resume .resume-section .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1.0fr));
+    gap: 1.2em;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 560px){
+  #resume .resume-section .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 0.7fr));
+    gap: 2em;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 430px){
+  #resume .resume-section .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1.0fr));
+    gap: 2em;
+    justify-content: center;
   }
 }

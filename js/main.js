@@ -149,29 +149,7 @@
         "rc-mb-0"
       );
     var t, i, s;
-    tns({
-      container: "#about .testimonials-section .my-slider",
-      items: 2,
-      gutter: 30,
-      responsive: {
-        0: {
-          items: 1,
-          gutter: 0,
-        },
-        768: {
-          items: 2,
-          gutter: 30,
-        },
-      },
-      preventScrollOnTouch: "auto",
-      slideBy: "page",
-      mouseDrag: !0,
-      swipeAngle: !1,
-      speed: 400,
-      controls: !1,
-      autoHeight: !0,
-      navPosition: "bottom",
-    });
+
     a(
       ["#about .pricing-section .single-plan", null],
       [
