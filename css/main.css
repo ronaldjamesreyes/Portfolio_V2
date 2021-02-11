@@ -811,6 +811,7 @@ hr {
 #about .info-section .info-img img {
   background-color: transparent;
   border-color: rgba(0, 0, 0, 0.18);
+  padding-bottom: 13px;
 }
 #about .info-section .info-content .content-subtitle {
   font-size: 24px;
@@ -890,7 +891,7 @@ hr {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #about .info-section .info-img img {
     object-fit: cover;
-    padding-bottom: 150px;
+    padding-bottom: 110px;
   }
 
   #about .info-section .info-content .content-title {
@@ -1419,16 +1420,16 @@ hr {
     font-size: 14px;
   }
 }
-#blog .blog-section .single-post {
+#project .project-section .single-post {
   background-color: transparent;
   border: none;
   margin-bottom: 70px;
 }
-#blog .blog-section .single-post .post-img {
+#project .project-section .single-post .post-img {
   height: 100%;
   position: relative;
 }
-#blog .blog-section .single-post .post-img .content-date {
+#project .project-section .single-post .post-img .content-date {
   bottom: 0;
   color: #fff;
   display: inline-block;
@@ -1436,25 +1437,25 @@ hr {
   padding: 0 14px;
   position: absolute;
 }
-#blog .blog-section .single-post .post-content {
+#project .project-section .single-post .post-content {
   padding: 13px 0 0 0;
 }
-#blog .blog-section .single-post .post-content .content-title {
+#project .project-section .single-post .post-content .content-title {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.1px;
   margin-bottom: 6px;
 }
-#blog .blog-section .single-post .post-content .content-description {
+#project .project-section .single-post .post-content .content-description {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
 }
 @media (max-width: 991.98px) {
-  #blog .blog-section .single-post {
+  #project .project-section .single-post {
     margin-bottom: 40px;
   }
-  #blog .blog-section .single-post .post-content .content-title {
+  #project .project-section .single-post .post-content .content-title {
     font-size: 20px;
   }
 }
