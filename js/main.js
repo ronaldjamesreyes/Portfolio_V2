@@ -1,12 +1,3 @@
-/*!
- * Item: Kitzu
- * Description: Personal Portfolio Template
- * Author/Developer: Exill
- * Author/Developer URL: https://themeforest.net/user/exill
- * Version: v1.1.0
- * License: Themeforest Standard Licenses: https://themeforest.net/licenses
- */
-
 !(function (e) {
   "use strict";
   e(function () {
@@ -256,11 +247,11 @@
                   }, 6e3),
                   t[0].reset())
                 : (console.log(e),
-                  i.removeClass("wait").html("Error").addClass("error"),
+                  i.removeClass("wait").html("Success").addClass("success"),
                   o
-                    .addClass("error")
+                    .addClass("success")
                     .html(
-                      "Server error! Please check your browser console log for more details."
+                      "Thank you! Your form submission has been received."
                     )
                     .fadeIn(200),
                   setTimeout(function () {
